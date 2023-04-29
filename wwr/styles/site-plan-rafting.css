@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@400;600&family=Libre+Franklin:wght@300&display=swap');
 
+@import url('https://fonts.googleapis.com/css2? family= Arimo:wght@600 & family= Libre+Franklin:wght@300 & display=swap');
 
 :root{
     --primary-color: #1C385A;
@@ -8,7 +8,7 @@
     --accent2-color: #67A1E6 ;
 
     --heading-font: 'Arimo', sans-serif;
-    --paragraph-font:'Libre Franklin', sans-serif;
+    --paragraph-font: 'Libre Franklin', sans-serif;
 
     --nav-background-color:#B4B4E4;
     --nav-link-color:#639EE7;;
@@ -32,12 +32,14 @@ header{
     padding: 20px;
     background-color: var(--accent1-color);
 }
+
 p{
     padding:25px;
 }
+
 nav{
     background-color: var(--nav-background-color);
-    font: 1.2rem;
+    font-size: 1.2rem;
     display: flex;
 }
 nav a {
@@ -48,7 +50,7 @@ nav a {
 }
 
 nav a:link, nav a:visited {
-    color:var(--nav-hover-link-color)
+    color:var(--nav-link-color)
 }
 
 nav a:hover {
