@@ -1,5 +1,7 @@
 
-@import url('https://fonts.googleapis.com/css2? family= Arimo:wght@600 & family= Libre+Franklin:wght@300 & display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
 
 :root{
     --primary-color: #1C385A;
@@ -8,7 +10,7 @@
     --accent2-color: #67A1E6 ;
 
     --heading-font: 'Arimo', sans-serif;
-    --paragraph-font: 'Libre Franklin', sans-serif;
+    --paragraph-font: 'Montserrat', sans-serif;
 
     --nav-background-color:#B4B4E4;
     --nav-link-color:#639EE7;;
