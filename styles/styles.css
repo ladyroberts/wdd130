@@ -1,12 +1,12 @@
+/*Class Selectors*/
 /*Class Selectors , Unos de los sectores agregados fue de caja */
 * {
-    /*Class Selectors , Unos de los sectores agregados fue de caja */
-    margin:0px;
-    padding:0px;
-    box-sizing: border-box ;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 /*Class Selectors , Unos de los sectores agregados fue de caja */
-
+/* Class Selectors */
 .box{
    /*Class Selectors , Unos de los sectores agregados fue de caja */
    margin: 1rem ;
