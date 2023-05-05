@@ -1,11 +1,9 @@
-
 /*Class Selectors*/
-
 .box{
    margin: 1rem ;
    padding: 1rem ;
    border: 1px solid rgba(0, 0, 0, 0.2);
-   background-color: palevioletred;
+   background-color: rgba(255, 192, 203, 0.377);
     color: #000;
 }
 
@@ -16,7 +14,7 @@
 }
 
 nav {
-    background-color: steelblue;
+    background-color: rgba(70, 81, 180, 0.582);
     padding: 10px;
 }
 
@@ -53,6 +51,11 @@ aside h2  {
     position: absolute;
     top: 350px ;
     left: 535px;
+    width: 20em;
+    text-align: center;
+}
+aside {
+    position: relative;
     width: 20em;
     text-align: center;
 }
