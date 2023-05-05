@@ -35,10 +35,12 @@ main {
 }
 
 main img {
+    /*Coloque una declaracion en la imagen */
+    float: right;
     width: 150px;
     height: auto;
     border: 1px solid steelblue;
-    padding: 2px;
+    padding: 5px;
     box-shadow: 0 0 30px gray;
 }
 
@@ -47,12 +49,15 @@ p {
     padding: 0px;
 }
 
-aside {
+aside h2  {
+    position: absolute;
+    top: 250px ;
+    left: 530px;
     width: 20em;
     text-align: center;
 }
 
-aside img {
+aside img  {
     width: 200px;
     height: auto;
 }
