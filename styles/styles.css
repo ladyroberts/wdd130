@@ -1,9 +1,10 @@
-*{
-    margin:5px;
-    padding: 10px;
+* {
+    margin:0px;
+    padding:0px;
     box-sizing: border-box;
 }
-/*Class Selectors*/
+ /*Class Selectors*/
+ /* Unos de los sectores agregados fue de caja */
 
 .box{
    margin: 1rem ;
