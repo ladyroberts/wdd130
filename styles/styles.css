@@ -1,16 +1,15 @@
 /*Class Selectors*/
+*{
+    margin:5px;
+    padding: 10px;
+    box-sizing: border-box;
+}
 .box{
    margin: 1rem ;
    padding: 1rem ;
    border: 1px solid rgba(0, 0, 0, 0.2);
    background-color: rgba(255, 192, 203, 0.377);
     color: #000;
-}
-
-*{
-    margin:5px;
-    padding: 10px;
-    box-sizing: border-box;
 }
 
 nav {
