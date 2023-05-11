@@ -80,7 +80,10 @@ footer {
     border-top: 1px solid #000;
     text-align: center;
 }
-
+header, .grid ,footer{
+    max-width: 840px;
+    margin: 0 auto;
+}
 .grid{
     display: grid;
     align-items: center;
