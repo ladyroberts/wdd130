@@ -30,7 +30,8 @@ h1 , h2 ,h3 , h4 {
     color: var(--primary-color)
 }
 
-header{
+header  {
+
     padding: 20px;
     background-color: var(--accent1-color);
 }

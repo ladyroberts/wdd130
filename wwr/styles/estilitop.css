@@ -1,5 +1,3 @@
-
-
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;500&family=Raleway:wght@100;500&display=swap');
 
 :root{
@@ -22,7 +20,7 @@
     box-sizing: border-box;
 }
 
-.grid{
+.container{
     width: 100%;
     height: auto;
     margin: 1rem ;
@@ -36,7 +34,7 @@
     flex-flow: wrap ;
 }
 
-.box {
+.box{
     top: 60px ;
     left: -20px;
     width: 200px ;
@@ -45,48 +43,7 @@
     background:var(--nav-background-color);
     margin: 0px;
     box-sizing: border-box ;
-    flex-flow: wrap ;
 }
-
-
-
-
-
-.flex{
-    display:grid;
-    grid-template-columns:100%;
-    background-color:red;
-    padding: 4em;
-}
-
-h2{
-    text-align: center;
-}
-
-img{
-    width: 19%;
-	height: 100%;
-}
-
-.text-align{
-    display:block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-p.centrado{
-    text-align: center;
-    width: 10px;
-}
-
-.flexc{
-    background-color:red;
-    color: var(--primary-color);
-    font-family: var(--heading-font);
-    padding: 4em;
-    grid-template-rows: auto;
-}
-
 h1{
     font-family: var(--heading-font);
     position: absolute;
@@ -99,7 +56,6 @@ h1{
 	opacity: 0.7;
 
 }
-
 article{
     font-family: var(--heading-font);
     position: absolute;
@@ -117,41 +73,6 @@ article img {
     float: right;
     width: 19%;
 	height: 100%;
-}
-section .cajas{
-    width: 19%;
-	height: 100%;
-    display:block;
-    margin:auto;
-
-}
-figure {
-    border: thin #c0c0c0 solid;
-    display: flex;
-    flex-flow: column;
-    padding: 5px;
-    max-width: 220px;
-    margin: auto;
-}
-
-section img {
-    max-width: 220px;
-    max-height: 150px;
-}
-
-figcaption {
-    background-color: #222;
-    color: #fff;
-    font: italic smaller sans-serif;
-    padding: 3px;
-    text-align: center;
-}
-
-section{
-    background-color: #1C385A;
-}
-h3{
-    text-align: center;
 }
 
 
@@ -171,23 +92,25 @@ nav a  {
     color:white;
     padding: 10px;
     font-family: var(--heading-font); 
+
 }
 
+h2 {
+    color: var(--primary-color);
+    font-family: var(--heading-font);
+}
 section img{
     display:block ;
     margin: 2.5%;
     width: 100%;
 }
-footer p {
-    text-align: center;
-}
-footer {
-    background-color: #639EE7;
-}
-
-footer a img{
+footer img{
     margin: 1%;
-    width: 2.3%;
-    float: right;  
+    width: 3%;
+    height: auto;
 
+}
+
+section .box{
+    background-color: #1C385A;
 }
