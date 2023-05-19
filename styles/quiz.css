@@ -14,12 +14,12 @@ form{
 label, input ,textarea {
     font-family: inherit;
     font-size: 100%;
-    padding: 2px;
+    padding: 1px;
   }
 
 .box{
     background: rgb(205, 50, 171);
-    padding: 5px;
+    padding: 2px;
     font-size: 80%;
     width: 200px;
 } 
