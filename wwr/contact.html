@@ -4,11 +4,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>contact</title>
+    <title>Contact us | Dry Oar Boating | Home</title>
     <meta name="description" content="information about Rafting the best opcion">
     <meta name="author" content="Lady Roberts">
     <link rel="stylesheet" href="styles/">
     <style>
+        body{
+            background-color: #639EE7;
+        }
+        
+        .map{
+            margin: 10px;
+        }
         footer p {
             text-align: center;
             }
@@ -22,21 +29,21 @@
             margin: 1%;
             width: 2.3%;
             float: right;  
-            }
-            form fieldset{
-    background: rgb(189, 97, 112);
-    width: 250px;
-    padding: 20px;
-    margin: 10px;
-    box-sizing: border-box;
-}
-
-   
+        }
+        form fieldset{
+        background: rgb(189, 97, 112);
+        width: 250px;
+        padding: 20px;
+        margin: 10px;
+        box-sizing: border-box;
+        }
+        
     </style>
 </head>
 <body>
     <header>
         <nav>
+            <img src="https://byui-cse.github.io/wdd130-ww-course/resources/images/logos/logo9_200.png" alt="Rafting Site Logo">
             <h1>Company information</h1>
             <p>Company information</p>
             <p>address</p>
@@ -72,13 +79,14 @@
                 <label for="q1">1-User's name</label><br>
                 <input type="text" id="q1" name="q1"><br>
                 <label for="q2">2-User's email address</label><br>
-                <input type="email"  id="q2" name="q2"  ></textarea><br>   
-                <label for="q3">3-Pick one option</label><br>
-                <select id="q3" name="q3">
-                    <option value="General Inquiry">General Inquiry</option> 
-                    <option value="Reservation Question">Reservation Question</option> 
-                    <option value="Website Suggestion">Website Suggestion</option> 
-                </select><br>
+                <input type="email"  id="q2" name="q2"  ></textarea><br> 
+                <label for="q3">3-Pick one option</label><br>    
+                    <input type="radio" id="q3" name="q3" >
+                    <label for="q3">General Inquiry</label><br>
+                    <input type="radio" id="q3" name="q3" >
+                    <label for="q3">Reservation Question</label><br>
+                    <input type="radio" id="q3" name="q3" >
+                    <label for="q3">Website Suggestion</label><br>
                 <label for="q4">4-The Message</label><br>
                 <textarea  id="q4" name="q4" rows="6" placeholder=""></textarea><br>   
                 <label for="q5">"Please subscribe me to the monthly newsletter"</label><br>
@@ -89,6 +97,8 @@
     </main>
     <footer>
         <p>©️2023 🌊 Rafting the Best Option - Lady Roberts</p>
+        <p><a href="site-plan-rafting.html">Site Plan</a></p>
+        <p><a href="contactus.html">Contact Us</a></p>
         <nav class="sociallinks" >
             <a href="https://www.facebook.com/">
                 <img src="facebook.png" alt="Facebook">
